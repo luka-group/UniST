@@ -2,9 +2,9 @@
 Code for our paper [Unified Semantic Typing with Meaningful Label Inference](https://arxiv.org/abs/2205.01826) at NAACL 2022.
 
 ## Requirements
-pytorch == 1.9.1
-transformers == 4.10.2
-scikit-slearn
+* pytorch == 1.9.1
+* transformers == 4.10.2
+* scikit-slearn
 
 ## Data
 
