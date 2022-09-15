@@ -26,5 +26,5 @@ python data/fewrel/process_fewrel.py
 ## Experiments
 The training scripts are provided under `./scripts`. For example, to train a UniST base model on TACRED, run
 ```bash
-bash ./scripts/run_tacred.py
+bash ./scripts/run_tacred.sh
 ```
