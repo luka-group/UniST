@@ -1,0 +1,13 @@
+python run.py \
+--data_dir ./data \
+--output_dir output/ufet/roberta-large \
+--train_tasks ufet \
+--eval_tasks ufet \
+--do_train \
+--eval_during_training \
+--logging_epochs 100 \
+--save_epochs 100 \
+--num_train_epochs 1000 \
+--per_gpu_train_batch_size 64 \
+--learning_rate 5e-6 \
+--model_name_or_path roberta-large

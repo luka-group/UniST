@@ -1,0 +1,12 @@
+python run.py \
+--data_dir ./data \
+--output_dir output/ufet/roberta-base \
+--train_tasks ufet \
+--eval_tasks ufet \
+--do_train \
+--eval_during_training \
+--logging_epochs 100 \
+--save_epochs 100 \
+--num_train_epochs 1000 \
+--per_gpu_train_batch_size 64 \
+--model_name_or_path roberta-base \

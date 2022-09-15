@@ -1,0 +1,12 @@
+python run.py \
+--data_dir ./data \
+--output_dir output/maven/roberta-base \
+--train_tasks maven \
+--eval_tasks maven \
+--do_train \
+--eval_during_training \
+--logging_epochs 10 \
+--save_epochs 10 \
+--num_train_epochs 100 \
+--per_gpu_train_batch_size 64 \
+--model_name_or_path roberta-base \
