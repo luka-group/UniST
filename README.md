@@ -4,7 +4,7 @@ Code for our paper [Unified Semantic Typing with Meaningful Label Inference](htt
 ## Requirements
 * pytorch == 1.9.1
 * transformers == 4.10.2
-* scikit-slearn
+* scikit-learn
 
 ## Data
 
