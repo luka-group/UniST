@@ -237,7 +237,7 @@ def eval_ufet(args, eval_dataset, model, tokenizer, num_epochs="", split="", thr
         }
 
     else:
-        with open("../data/ufet/test_type_frequencies_in_train_set.json", "r") as f:
+        with open(os.path.join(args.data_dir, "ufet/test_type_frequencies_in_train_set.json"), "r") as f:            
             label2freq = json.loads(f.read())
 
         preds = []
