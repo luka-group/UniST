@@ -28,3 +28,20 @@ The training scripts are provided under `./scripts`. For example, to train a Uni
 ```bash
 bash ./scripts/run_tacred.sh
 ```
+
+## Citing
+```
+@inproceedings{huang-etal-2022-unified,
+    title = "Unified Semantic Typing with Meaningful Label Inference",
+    author = "Huang, James Y.  and
+      Li, Bangzheng  and
+      Xu, Jiashu  and
+      Chen, Muhao",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.190",
+    pages = "2642--2654"
+}
+```
